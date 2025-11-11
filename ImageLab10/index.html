@@ -4,12 +4,13 @@
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"> </script>
   </head>
   <body>
-    <a-assets>
-      <img src="assets/beach_scene.jpg" id="sky">
-      <img src="assets/wafflecone.jpg" id="cone">
-      <img src="assets/spilledIcecream.jpg" id="spilled"
-    </a-assets>
     <a-scene>
+      <a-assets>
+        <img src="assets/beach_scene.jpg" id="sky">
+        <img src="assets/wafflecone.jpg" id="cone">
+        <img src="assets/spilledIcecream.jpg" id="spilled">
+      </a-assets>
+    
       <a-cone position="-1 0.5 -3" rotation="0 45 0" material= "src: #cone"></a-cone>
       <a-sphere position="0 1.25 -5" radius="1.25" material= "src: #cone"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
