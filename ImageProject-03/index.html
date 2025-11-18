@@ -12,13 +12,15 @@
         <img id="flowertexture" src="assets2/IMG_0114.JPG">
         <img id="gnometexture" src="assets2/stone.jpg">
         <img id="pumpkintexture" src="assets2/Sphere2.jpg">
+        <img id="cantexture" src="assets2/Can Specular.jpg">
 <!-- #3D Objects Assets  -->
         <a-asset-item src="asset3D/fence_Wood.obj" id="fence"></a-asset-item>
         <a-asset-item src="asset3D/flower.obj" id="flower"></a-asset-item>
         <a-asset-item src="asset3D/19377_Garden_gnome_water_can_V1_.obj" id="gnome"></a-asset-item>
         <a-asset-item src="asset3D/plants1.obj" id="ivy"></a-asset-item>
         <a-asset-item src="asset3D/pumpkin_.obj" id="pumpkin"></a-asset-item>
-        <a-asset-item src="asset3D/scene.gltf" id="carrot"></a-asset-item>
+        <a-asset-item src="asset3D/Can OBJ.obj" id="wateringcan"></a-asset-item>
+       
       </a-assets>
 
 <!-- #3D objects -->
@@ -38,10 +40,12 @@
       <a-obj-model position= "-39.088 -1.083 -32.966" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#495900"></a-obj-model>
       <a-obj-model position= "24.844 -1.093 -132.768" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#667a1d"></a-obj-model>
       <a-obj-model position= "0.982 0 -131.096" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#959900"></a-obj-model>
+      <a-obj-model position= "-21.649 0 -49.842" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#959900"></a-obj-model>
+      <a-obj-model src="#wateringcan"  material="src:cantexture"></a-obj-model>
 
       <a-obj-model position= "-15.8  -6.221 -57.313" src="#pumpkin" scale=".2 .2 .2" material="src: #pumpkintexture"></a-obj-model>
       <a-obj-model position= "93.025 -8.120 -59.321" src="#pumpkin" scale=".2 .2 .230" material="src: #pumpkintexture" rotation="0 90 0"></a-obj-model>
-      <a-entity gltf-model="#carrot" position="0 1 -3" scale="1 1 1"></a-entity>
+      
       
 
       <a-plane scale="11 11 12" position="-7.874 -2.160 13.454" rotation="-90 0 0" width="30" height="30" src="#dirt"></a-plane>
