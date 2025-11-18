@@ -13,6 +13,7 @@
         <img id="gnometexture" src="assets2/stone.jpg">
         <img id="pumpkintexture" src="assets2/Sphere2.jpg">
         <img id="cantexture" src="assets2/Can Specular.jpg">
+        <img id="treetext" src="assets2/vine.jpg">
 <!-- #3D Objects Assets  -->
         <a-asset-item src="asset3D/fence_Wood.obj" id="fence"></a-asset-item>
         <a-asset-item src="asset3D/flower.obj" id="flower"></a-asset-item>
@@ -43,9 +44,9 @@
       <a-obj-model position= "-15.8  -6.221 -57.313" src="#pumpkin" scale=".2 .2 .2" material="src: #pumpkintexture"></a-obj-model>
       <a-obj-model position= "93.025 -8.120 -59.321" src="#pumpkin" scale=".2 .2 .230" material="src: #pumpkintexture" rotation="0 90 0"></a-obj-model>
 
-      <a-obj-model position="-16.682 -40.701 -107.901" scale="2.500 2.500 2.500" src="#tree"></a-obj-model>
-      <a-obj-model position="-79.200 -34.685 9.784" scale="2 2 2"src="#tree"></a-obj-model>
-      <a-obj-model position="88.663 -7.295 8.420" scale="2.050 2.050 2.050" rotation="0 90 0"src="#tree"></a-obj-model>
+      <a-obj-model position="-16.682 -40.701 -107.901" scale="2.500 2.500 2.500" src="#tree" material="src:#treetext"></a-obj-model>
+      <a-obj-model position="-79.200 -34.685 9.784" scale="2 2 2"src="#tree" material="src:#treetext"></a-obj-model>
+      <a-obj-model position="88.663 -7.295 8.420" scale="2.050 2.050 2.050" rotation="0 90 0"src="#tree" material="src:#treetext"></a-obj-model>
 
       <a-plane scale="11 11 12" position="-7.874 -2.160 13.454" rotation="-90 0 0" width="30" height="30" src="#dirt"></a-plane>
       <a-sky src= "#sky"></a-sky>
