@@ -18,6 +18,7 @@
         <a-asset-item src="asset3D/19377_Garden_gnome_water_can_V1_.obj" id="gnome"></a-asset-item>
         <a-asset-item src="asset3D/plants1.obj" id="ivy"></a-asset-item>
         <a-asset-item src="asset3D/pumpkin_.obj" id="pumpkin"></a-asset-item>
+        <a-asset-item src="asset3D/scene.gltf" id="carrot"></a-asset-item>
       </a-assets>
 
 <!-- #3D objects -->
@@ -31,7 +32,7 @@
       <a-obj-model position= "-33.297 -2.334 -33.834"src="#gnome" rotation="270.000 70.000 0.000" scale="3.500 3.500 3.500" material="src: #gnometexture" ></a-obj-model>
       <a-obj-model position= "34.134 -2.344 -116.342" src="#gnome" rotation="270.000 180 180" scale="3.500 3.500 3.500" material="src: #gnometexture"></a-obj-model>
 
-<!-- #VINES -->
+<!-- #in the garden -->
       <a-obj-model position= "-40.973 0.000 -66.504" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#748048"></a-obj-model>
       <a-obj-model position= "-41.363 0.000 -91.831" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#0a5900"></a-obj-model>
       <a-obj-model position= "-39.088 -1.083 -32.966" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#495900"></a-obj-model>
@@ -39,6 +40,8 @@
       <a-obj-model position= "0.982 0 -131.096" src="#ivy" scale="0.050 0.050 0.050" rotation="90 90 90" color="#959900"></a-obj-model>
 
       <a-obj-model position= "-15.8  -6.221 -57.313" src="#pumpkin" scale=".2 .2 .2" material="src: #pumpkintexture"></a-obj-model>
+      <a-entity gltf-model="#corrot"></a-entity>
+
 
       <a-plane scale="11 11 12" position="-7.874 -2.160 13.454" rotation="-90 0 0" width="30" height="30" src="#dirt"></a-plane>
       <a-sky src= "#sky"></a-sky>
